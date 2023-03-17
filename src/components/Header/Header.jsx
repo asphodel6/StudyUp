@@ -3,7 +3,7 @@ import style from './Header.module.css'
 
 function Header() {
     return (
-        <div className={style.header}>Hello</div>
+        <div className={style.header}>Header</div>
     );
 }
 
