@@ -1,5 +1,6 @@
 import React from "react";
 import style from './Main.module.css'
+import { NavLink } from "react-router-dom";
 
 function Main() {
     return (
@@ -14,7 +15,7 @@ function Main() {
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
-                <div className={style.proceedButton}><button>Приступить</button></div>
+                <div className={style.proceedButton}><NavLink to="/registration"><button>Приступить</button></NavLink></div>
             </div>
             <div className={style.mainPicture}><img src="images/main-picture.svg" alt="main-picture" /></div>
         </div>
