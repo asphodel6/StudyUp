@@ -15,8 +15,8 @@ function RegistrationPage() {
             <div className={style.cat}><img src="images/cat2.svg" alt="cat2" /></div>
             <div className={style.login}>Уже есть аккаунт? <NavLink to="/login">Войти</NavLink></div>
             <div className={style.checkbox}><input type="checkbox" />
-                Я принимаю <a href="">условия пользовательского соглашения</a>
-                <br />        и даю <a href="">согласие на обработку персональных данных</a></div>
+                Я принимаю <a href="src/components/RegistrationPage">условия пользовательского соглашения</a>
+                <br />        и даю <a href="src/components/RegistrationPage">согласие на обработку персональных данных</a></div>
             <div className={style.signUp}><button>Зарегистрироваться</button></div>
         </div>
     );

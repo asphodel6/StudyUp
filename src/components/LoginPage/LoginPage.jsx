@@ -11,7 +11,7 @@ function LoginPage() {
         <div className={style.rectangle}><img src="images/Rectangle2.svg" alt="Rectangle1" /></div>
         <div className={style.line}><img src="images/Line1.svg" alt="Line1" /></div>
         <div className={style.cat}><img src="images/cat2.svg" alt="cat2" /></div>
-        <div className={style.forgotPassword}><a href="">Забыли пароль?</a></div>
+        <div className={style.forgotPassword}><a href="src/components/LoginPage">Забыли пароль?</a></div>
         <div className={style.login}><button>Войти</button></div>
     </div>
     );
