@@ -34,7 +34,7 @@
     line-height: 57px;
 }
 
-.textarea1 {
+.input1 {
     position: absolute;
     background-color: #87B5FA;
     z-index: 1;
@@ -42,7 +42,7 @@
     left: 94px;
 }
 
-.textarea2 {
+.input2 {
     position: absolute;
     background-color: #87B5FA;
     z-index: 2;
@@ -50,13 +50,12 @@
     left: 94px;
 }
 
-textarea {
+input {
     width: 480px;
     height: 49px;
     line-height: 49px;
     border-radius: 7px;
     padding-left: 18px;
-    resize: none;
     font-style: normal;
     font-size: 14px;
 }
@@ -82,4 +81,8 @@ a {
     color: white;
     border-radius: 7px;
     padding: 8.65px 20px;
+}
+
+.error {
+    color: red;
 }

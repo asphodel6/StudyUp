@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import LoginPage from "./components/LoginPage/LoginPage";
 import RegistrationPage from "./components/RegistrationPage/RegistrationPage";
 import Main from "./components/Main/Main";
+import LoginPageContainer from "./components/LoginPage/LoginPageContainer";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <div className="app-wrapper-login">
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/login" element={<LoginPage />} />
+            <Route path="/login" element={<LoginPageContainer />} />
             <Route path="/registration" element={<RegistrationPage />} />
           </Routes>
         </div>
