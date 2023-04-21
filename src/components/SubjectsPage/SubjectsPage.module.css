@@ -1,0 +1,82 @@
+.subjectsContainer {
+    display: grid;
+    margin-bottom: 135px;
+}
+
+.subjectVector img {
+    position: absolute;
+    width: 517px;
+    height: 82px;
+    left: 94px;
+    top: 201px;
+}
+
+.subjectVectorTitle {
+    position: absolute;
+    width: 454px;
+    height: 57px;
+    left: 94px;
+    top: 215px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.88px;
+}
+
+.star img {
+    position: absolute;
+    width: 28px;
+    height: 29px;
+    margin-left: 1067px;
+    margin-top: 36px;
+}
+
+.bell img {
+    position: absolute;
+    width: 17px;
+    height: 22px;
+    margin-left: 1113px;
+    margin-top: 39px;
+}
+
+.catSubjects img {
+    position: absolute;
+    width: 334px;
+    height: 198px;
+    left: 854px;
+    top: 100px;
+}
+
+.subjectMath img {
+    position: absolute;
+    width: 265px;
+    height: 361px;
+    left: 94px;
+    top: 332px;
+}
+
+.subjectRussianLanguage img {
+    position: absolute;
+    width: 266px;
+    height: 361px;
+    left: 370px;
+    top: 332px;
+
+}
+
+.subjectInformatics img {
+    position: absolute;
+    width: 266px;
+    height: 361px;
+    left: 646px;
+    top: 332px;
+}
+
+.subjectOther img {
+    position: absolute;
+    width: 266px;
+    height: 361px;
+    left: 922px;
+    top: 332px;
+}

@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import LoginPage from "./components/LoginPage/LoginPage";
 import RegistrationPage from "./components/RegistrationPage/RegistrationPage";
 import Main from "./components/Main/Main";
+import SubjectsPage from "./components/SubjectsPage/SubjectsPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Main />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/registration" element={<RegistrationPage />} />
+            <Route path="/subjects" element={<SubjectsPage />} />
           </Routes>
         </div>
         <Footer />
